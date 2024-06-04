@@ -1,0 +1,200 @@
+ip_input.c in BSD-derived TCP/IP implementations allows remote attackers to cause a denial of service (crash or hang) via crafted packets.
+Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
+Execute commands as root via buffer overflow in Tooltalk database server (rpc.ttdbserverd).
+MIME buffer overflow in email clients, e.g. Solaris mailtool and Outlook.
+Arbitrary command execution via IMAP buffer overflow in authenticate command.
+Buffer overflow in POP servers based on BSD/Qualcomm's qpopper allows remote attackers to gain root access using a long PASS command.
+Information from SSL-encrypted sessions via PKCS #1.
+Buffer overflow in NIS+, in Sun's rpc.nisd program.
+Inverse query buffer overflow in BIND 4.9 and BIND 8 Releases.
+Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.
+Denial of Service vulnerabilities in BIND 4.9 and BIND 8 Releases via CNAME record and zone transfer.
+Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.
+Stolen credentials from SSH clients via ssh-agent program, allowing other local users to access remote accounts belonging to the ssh-agent user.
+Unauthorized privileged access or denial of service via dtappgather program in CDE.
+Teardrop IP denial of service.
+Land IP denial of service.
+FTP servers can allow an attacker to connect to arbitrary ports on machines other than the FTP client, aka FTP bounce.
+Buffer overflow in statd allows root privileges.
+Delete or create a file via rpc.statd, due to invalid information.
+Arbitrary command execution via buffer overflow in Count.cgi (wwwcount) cgi-bin program.
+Local user gains root privileges via buffer overflow in rdist, via expstr() function.
+Local user gains root privileges via buffer overflow in rdist, via lookup() function.
+DNS cache poisoning via BIND, by predictable query IDs.
+root privileges via buffer overflow in df command on SGI IRIX systems.
+root privileges via buffer overflow in pset command on SGI IRIX systems.
+root privileges via buffer overflow in eject command on SGI IRIX systems.
+root privileges via buffer overflow in login/scheme command on SGI IRIX systems.
+root privileges via buffer overflow in ordist command on SGI IRIX systems.
+root privileges via buffer overflow in xlock command on SGI IRIX systems.
+JavaScript in Internet Explorer 3.x and 4.x, and Netscape 2.x, 3.x and 4.x, allows remote attackers to monitor a user's web activities, aka the Bell Labs vulnerability.
+Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
+Command execution in Sun systems via buffer overflow in the at program.
+Buffer overflow in suidperl (sperl), Perl 4.x and 5.x.
+Race condition in signal handling routine in ftpd, allowing read/write arbitrary files.
+IRIX login program with a nonzero LOCKOUT parameter allows creation or damage to files.
+Arbitrary command execution via metamail package using message headers, when user processes attacker's message using metamail.
+Buffer overflow in xlock program allows local users to execute commands as root.
+webdist CGI program (webdist.cgi) in SGI IRIX allows remote attackers to execute arbitrary commands via shell metacharacters in the distloc parameter.
+Buffer overflow in Xt library of X Windowing System allows local users to execute commands with root privileges.
+Buffer overflow in NLS (Natural Language Service).
+Buffer overflow in University of Washington's implementation of IMAP and POP servers.
+Command execution via shell metachars in INN daemon (innd) 1.5 using ""newgroup"" and ""rmgroup"" control messages, and others.
+fsdump command in IRIX allows local users to obtain root access by modifying sensitive files.
+List of arbitrary files on Web host via nph-test-cgi script.
+Buffer overflow of rlogin program using TERM environmental variable.
+MIME conversion buffer overflow in sendmail versions 8.8.3 and 8.8.4.
+Talkd, when given corrupt DNS information, can be used to execute arbitrary commands with root privileges.
+Csetup under IRIX allows arbitrary file creation or overwriting.
+Buffer overflow in HP-UX newgrp program.
+Arbitrary file creation and program execution using FLEXlm LicenseManager, from versions 4.0 to 5.0, in IRIX.
+IP fragmentation denial of service in FreeBSD allows a remote attacker to cause a crash.
+TCP RST denial of service in FreeBSD.
+Sun's ftpd daemon can be subjected to a denial of service.
+Buffer overflows in Sun libnsl allow root access.
+Buffer overflow in Sun's ping program can give root access to local users.
+Vacation program allows command execution by remote users through a sendmail command.
+Buffer overflow in PHP cgi program, php.cgi allows shell access.
+IRIX fam service allows an attacker to obtain a list of all files on the server.
+Attackers can cause a denial of service in Ascend MAX and Pipeline routers with a malformed packet to the discard port, which is used by the Java Configurator tool.
+File creation and deletion, and remote execution, in the BSD line printer daemon (lpd).
+The chpass command in OpenBSD allows a local user to gain root access through file descriptor leakage.
+Cisco IOS 12.0 and other versions can be crashed by malicious UDP packets to the syslog port.
+Buffer overflow in AIX lquerylv program gives root access to local users.
+Multiple buffer overflows in how dtmail handles attachments allows a remote attacker to execute commands.
+AnyForm CGI remote execution.
+phf CGI program allows remote command execution through shell metacharacters.
+CGI PHP mylog script allows an attacker to read any file on the target server.
+Solaris ufsrestore buffer overflow.
+test-cgi program allows an attacker to list files on the server.
+Apache httpd cookie buffer overflow for versions 1.1.1 and earlier.
+Buffer overflow in AIX xdat gives root access to local users.
+Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access.
+Listening TCP ports are sequentially allocated, allowing spoofing attacks.
+PASV core dump in wu-ftpd daemon when attacker uses a QUOTE PASV command after specifying a username and password.
+Buffer overflow in wu-ftp from PASV command causes a core dump.
+Predictable TCP sequence numbers allow spoofing.
+pcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call.
+Remote attackers can cause a denial of service in FTP by issuing multiple PASV commands, causing the server to run out of available ports.
+Certain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the ""site exec"" command.
+wu-ftp allows files to be overwritten via the rnfr command.
+CWD ~root command in ftpd allows root access.
+getcwd() file descriptor leak in FTP.
+Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.
+Buffer overflow in rwhod on AIX and other operating systems allows remote attackers to execute arbitrary code via a UDP packet with a long hostname.
+AIX routed allows remote users to modify sensitive files.
+Denial of service in AIX telnet can freeze a system and prevent users from accessing the server.
+IRIX and AIX automountd services (autofsd) allow remote users to execute root commands.
+Buffer overflow in AIX libDtSvc library can allow local users to gain root access.
+Buffer overflow in AIX rcp command allows local users to obtain root access.
+Buffer overflow in AIX writesrv command allows local users to obtain root access.
+Various vulnerabilities in the AIX portmir command allows local users to obtain root access.
+AIX nslookup command allows local users to obtain root access by not dropping privileges correctly.
+AIX piodmgrsu command allows local users to gain additional group privileges.
+The debug command in Sendmail is enabled, allowing attackers to execute commands as root.
+Sendmail decode alias can be used to overwrite sensitive files.
+The AIX FTP client can be forced to execute commands from a malicious server through shell metacharacters (e.g. a pipe character).
+Buffer overflow in SMTP HELO command in Sendmail allows a remote attacker to hide activities.
+Buffer overflow in syslog utility allows local or remote attackers to gain root privileges.
+Remote access in AIX innd 1.5.1, using control messages.
+Buffer overflow in AIX and Solaris ""gethostbyname"" library call allows root access through corrupt DNS host names.
+Buffer overflow in SLmail 3.x allows attackers to execute commands using a large FROM line.
+Echo and chargen, or other combinations of UDP services, can be used in tandem to flood the server, a.k.a. UDP bomb or UDP packet storm.
+A later variation on the Teardrop IP denial of service attack, a.k.a. Teardrop-2.
+finger allows recursive searches by using a long string of @ symbols.
+Finger redirection allows finger bombs.
+Buffer overflow in Apache 1.2.5 and earlier allows a remote attacker to cause a denial of service with a large number of GET requests containing a large number of / characters.
+The printers program in IRIX has a buffer overflow that gives root access to local users.
+Buffer overflow in ffbconfig in Solaris 2.5.1.
+RIP v1 is susceptible to spoofing.
+Buffer overflow in AIX dtterm program for the CDE.
+Some implementations of rlogin allow root access if given a -froot parameter.
+Local users can execute commands as other users, and read other users' files, through the filter command in the Elm elm-2.4 mail package using a symlink attack.
+AIX bugfiler program allows local users to gain root access.
+Denial of service when an attacker sends many SYN packets to create multiple connections without ever sending an ACK to complete the connection, aka SYN flood.
+AIX passwd allows local users to gain root access.
+AIX infod allows local users to gain root access through an X display.
+Windows NT 4.0 beta allows users to read and delete shares.
+Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than root.
+Buffer overflow in dtaction command gives root access.
+Buffer overflow in AIX lchangelv gives root access.
+Race condition in Linux mailx command allows local users to read user files.
+Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.
+Buffer overflow in SGI IRIX mailx program.
+SGI IRIX buffer overflow in xterm and Xaw allows root access.
+swinstall and swmodify commands in SD-UX package in HP-UX systems allow local users to create or overwrite arbitrary files to gain root access.
+Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death.
+Sendmail allows local users to write to a file and gain group permissions via a .forward or :include: file.
+Local users can start Sendmail in daemon mode and gain root privileges.
+Buffer overflow and denial of service in Sendmail 8.7.5 and earlier through GECOS field gives root access to local users.
+Expreserve, as used in vi and ex, allows local users to overwrite arbitrary files and gain root access.
+fm_fls license server for Adobe Framemaker allows local users to overwrite arbitrary files and gain root access.
+vold in Solaris 2.x allows local users to gain root access.
+admintool in Solaris allows a local user to write to arbitrary files and gain root access.
+Kodak Color Management System (KCMS) on Solaris allows a local user to write to arbitrary files and gain root access.
+The dip program on many Linux systems allows local users to gain root access via a buffer overflow.
+The suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access.
+Buffer overflow in Solaris x86 mkcookie allows local users to obtain root access.
+Denial of service in RAS/PPTP on NT systems.
+Java Bytecode Verifier allows malicious applets to execute arbitrary commands as the user of the applet.
+The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
+Kerberos 4 key servers allow a user to masquerade as another by breaking and generating session keys.
+Denial of service in Qmail by specifying a large number of recipients with the RCPT command.
+Sendmail WIZ command enabled, allowing root access.
+The campas CGI program provided with some NCSA web servers allows an attacker to execute arbitrary commands via encoded carriage return characters in the query string, as demonstrated by reading the password file.
+The aglimpse CGI program of the Glimpse package allows remote execution of arbitrary commands.
+The handler CGI program in IRIX allows arbitrary command execution.
+The wrap CGI program in IRIX allows remote attackers to view arbitrary directory listings via a .. (dot dot) attack.
+The Perl fingerd program allows arbitrary command execution from remote users.
+The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access.
+The DG/UX finger daemon allows remote command execution through shell metacharacters.
+Windows 95/NT out of band (OOB) data denial of service through NETBIOS port, aka WinNuke.
+IIS 2.0 and 3.0 allows remote attackers to read the source code for ASP pages by appending a . (dot) to the end of the URL.
+The ghostscript command with the -dSAFER option allows remote attackers to execute commands.
+wu-ftpd FTP daemon allows any user and password combination.
+Cisco PIX firewall and CBAC IP fragmentation attack results in a denial of service.
+Cisco PIX firewall manager (PFM) on Windows NT allows attackers to connect to port 8080 on the PFM server and retrieve any file whose name and location is known.
+Attackers can crash a Cisco IOS router or device, provided they can get to an interactive prompt (such as a login).  This applies to some IOS 9.x, 10.x, and 11.x releases.
+Some classic Cisco IOS devices have a vulnerability in the PPP CHAP authentication to establish unauthorized PPP connections.
+In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering.
+The ""established"" keyword in some Cisco IOS software allowed an attacker to bypass filtering.
+In older versions of Sendmail, an attacker could use a pipe character to execute root commands.
+A race condition in the Solaris ps command allows an attacker to overwrite critical files.
+NFS cache poisoning.
+NFS allows users to use a ""cd .."" command to access other directories besides the exported file system.
+In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.
+The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.
+NFS allows attackers to read and write any file on the system by specifying a false UID.
+Remote attackers can mount an NFS file system in Ultrix or OSF, even if it is denied on the access list.
+Denial of service in syslog by sending it a large number of superfluous messages.
+FormMail CGI program allows remote execution of commands.
+FormMail CGI program can be used by web servers other than the host server that the program resides on.
+The view-source CGI program allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+The convert.bas program in the Novell web server allows a remote attackers to read any file on the system that is internally accessible by the web server.
+The Webgais program allows a remote user to execute arbitrary commands.
+The uploader program in the WebSite web server allows a remote attacker to execute arbitrary programs.
+Buffer overflow in the win-c-sample program (win-c-sample.exe) in the WebSite web server 1.1e allows remote attackers to execute arbitrary code via a long query string.
+Windows NT crashes or locks up when a Samba client executes a ""cd .."" command on a file share.
+in.rshd allows users to login with a NULL username and execute commands.
+The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands.
+Samba has a buffer overflow which allows a remote attacker to obtain root access by specifying a long password.
+Linux implementations of TFTP would allow access to files outside the restricted directory.
+When compiled with the -DALLOW_UPDATES option, bind allows dynamic updates to the DNS server, allowing for malicious modification of DNS records.
+In SunOS or Solaris, a remote user could connect from an FTP server's data port to an rlogin server on a host that trusts the FTP server, allowing remote command execution.
+In Solaris, an SNMP subagent has a default community string that allows remote attackers to execute arbitrary commands as root, or modify system parameters.
+The passwd command in Solaris can be subjected to a denial of service.
+Solaris rpcbind listens on a high numbered UDP port, which may not be filtered since the standard port number is 111.
+Solaris rpcbind can be exploited to overwrite arbitrary files and gain root access.
+IIS newdsn.exe CGI script allows remote users to overwrite files.
+Buffer overflow in telnet daemon tgetent routing allows remote attackers to gain root access via the TERMCAP environmental variable.
+Denial of service in Ascend and 3com routers, which can be rebooted by sending a zero length TCP option.
+Denial of service in in.comsat allows attackers to generate messages.
+Denial of service in RPC portmapper allows attackers to register or unregister RPC services or spoof RPC services using a spoofed source IP address such as 127.0.0.1.
+websendmail in Webgais 1.0 allows a remote user to access arbitrary files and execute arbitrary code via the receiver parameter ($VAR_receiver variable).
+finger 0@host on some systems may print information on some user accounts.
+finger .@host on some systems may print information on some user accounts.
+manual/search.texi in the GNU C Library (aka glibc) before 2.2 lacks a statement about the unspecified tdelete return value upon deletion of a tree's root, which might allow attackers to access a dangling pointer in an application whose developer was unaware of a documentation update from 1999.
+Windows NT FTP server (WFTP) with the guest account enabled without a password allows an attacker to log into the FTP server using any username and password.
+A quote cwd command on FTP servers can reveal the full path of the home directory of the ""ftp"" user.
+The GNU tar command, when used in FTP sessions, may allow an attacker to execute arbitrary commands.
+In Sendmail, attackers can gain root privileges via SMTP by specifying an improper ""mail from"" address and an invalid ""rcpt to"" address that would cause the mail to bounce to a program.

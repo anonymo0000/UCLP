@@ -1,0 +1,700 @@
+ip_input.c in BSD-derived TCP/IP implementations allows remote attackers to cause a denial of service (crash or hang) via crafted packets.
+1. "ip_input.c in BSD-derived TCP/IP implementations" is the Affected Product.
+2. "" is the Root Cause.
+3. "remote attackers" is the Attacker Type.
+4. "cause a denial of service (crash or hang)" is the Impact.
+5. "via crafted packets" is the Attacker Vector.
+6. "" is the Vulnerability Type.
+Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "NFS mountd" is the Affected Product.
+3. "" is the Root Cause.
+4. "root access" is the Impact.
+5. "remote attackers" is the Attacker Type.
+6. "mostly in Linux systems" is the Attacker Vector.
+Execute commands as root via buffer overflow in Tooltalk database server (rpc.ttdbserverd).
+1. "Buffer overflow" is the Vulnerability Type.
+2. "Tooltalk database server (rpc.ttdbserverd)" is the Affected Product.
+3. "Execute commands as root" is the Impact.
+4. "" is the Root Cause.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+MIME buffer overflow in email clients, e.g. Solaris mailtool and Outlook.
+1. "MIME buffer overflow" is the Vulnerability Type.
+2. "email clients, e.g. Solaris mailtool and Outlook" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Arbitrary command execution via IMAP buffer overflow in authenticate command.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "in authenticate command" is the Root Cause.
+3. "" is the Affected Product.
+4. "arbitrary command execution" is the Impact.
+5. "" is the Attacker Type.
+6. "via IMAP" is the Attacker Vector.
+Buffer overflow in POP servers based on BSD/Qualcomm's qpopper allows remote attackers to gain root access using a long PASS command.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "POP servers based on BSD/Qualcomm's qpopper" is the Affected Product.
+3. "using a long PASS command" is the Attack Vector.
+4. "remote attackers" is the Attacker Type.
+5. "gain root access" is the Impact.
+6. "" is the Root Cause.
+Information from SSL-encrypted sessions via PKCS #1.
+1. "" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "" is the Affected Product.
+4. "Information from SSL-encrypted sessions" is the Impact.
+5. "" is the Attacker Type.
+6. "via PKCS #1" is the Attacker Vector.
+Buffer overflow in NIS+, in Sun's rpc.nisd program.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "NIS+" is the Affected Product.
+3. "in Sun's rpc.nisd program" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Inverse query buffer overflow in BIND 4.9 and BIND 8 Releases.
+1. "Inverse query buffer overflow" is the Vulnerability Type.
+2. "BIND 4.9 and BIND 8 Releases" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.
+1. "Denial of Service vulnerability" is the Vulnerability Type.
+2. "BIND 8 Releases" is the Affected Product.
+3. "maliciously formatted DNS messages" is the Root Cause.
+4. "Denial of Service" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Denial of Service vulnerabilities in BIND 4.9 and BIND 8 Releases via CNAME record and zone transfer.
+1. "Denial of Service vulnerabilities" is the Vulnerability Type.
+2. "BIND 4.9 and BIND 8 Releases" is the Affected Product.
+3. "CNAME record and zone transfer" is the Attack Vector.
+4. "denial of service" is the Impact.
+5. "" is the Root Cause.
+6. "" is the Attacker Type.
+Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.
+1. "Some web servers under Microsoft Windows" is the Affected Product.
+2. "" is the Root Cause.
+3. "allow remote attackers to bypass access restrictions for files with long file names" is the Impact.
+4. "" is the Vulnerability Type.
+5. "remote attackers" is the Attacker Type.
+6. "" is the Attacker Vector.
+Stolen credentials from SSH clients via ssh-agent program, allowing other local users to access remote accounts belonging to the ssh-agent user.
+1. "" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "ssh-agent program" is the Affected Product.
+4. "other local users to access remote accounts belonging to the ssh-agent user" is the Impact.
+5. "local users" is the Attacker Type.
+6. "stolen credentials from SSH clients" is the Attacker Vector.
+Unauthorized privileged access or denial of service via dtappgather program in CDE.
+1. "Unauthorized privileged access or denial of service" is the Impact.
+2. "dtappgather program in CDE" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Teardrop IP denial of service.
+1. "" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "" is the Affected Product.
+4. "IP denial of service" is the Impact.
+5. "" is the Attacker Type.
+6. "Teardrop" is the Attacker Vector.
+Land IP denial of service.
+1. "" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "" is the Affected Product.
+4. "IP denial of service" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+FTP servers can allow an attacker to connect to arbitrary ports on machines other than the FTP client, aka FTP bounce.
+1. "FTP servers" is the Affected Product.
+2. "" is the Root Cause.
+3. "allow an attacker to connect to arbitrary ports on machines other than the FTP client" is the Impact.
+4. "FTP bounce" is the Vulnerability Type.
+5. "attacker" is the Attacker Type.
+6. "FTP servers" is the Attacker Vector.
+Buffer overflow in statd allows root privileges.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "statd" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Delete or create a file via rpc.statd, due to invalid information.
+1. "" is the Vulnerability Type.
+2. "rpc.statd" is the Affected Product.
+3. "invalid information" is the Root Cause.
+4. "Delete or create a file" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Arbitrary command execution via buffer overflow in Count.cgi (wwwcount) cgi-bin program.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "Count.cgi (wwwcount) cgi-bin program" is the Affected Product.
+3. "" is the Root Cause.
+4. "Arbitrary command execution" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Local user gains root privileges via buffer overflow in rdist, via expstr() function.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "rdist" is the Affected Product.
+3. "expstr() function" is the Root Cause.
+4. "Local user gains root privileges" is the Impact.
+5. "Local user" is the Attacker Type.
+6. "via buffer overflow in rdist" is the Attacker Vector.
+Local user gains root privileges via buffer overflow in rdist, via lookup() function.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "rdist" is the Affected Product.
+3. "lookup() function" is the Root Cause.
+4. "Local user gains root privileges" is the Impact.
+5. "Local user" is the Attacker Type.
+6. "via buffer overflow in rdist" is the Attacker Vector.
+DNS cache poisoning via BIND, by predictable query IDs.
+1. "DNS cache poisoning" is the Impact.
+2. "BIND" is the Affected Product.
+3. "predictable query IDs" is the Root Cause.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+root privileges via buffer overflow in df command on SGI IRIX systems.
+1. "buffer overflow" is the Vulnerability Type.
+2. "df command on SGI IRIX systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+root privileges via buffer overflow in pset command on SGI IRIX systems.
+1. "buffer overflow" is the Vulnerability Type.
+2. "pset command on SGI IRIX systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+root privileges via buffer overflow in eject command on SGI IRIX systems.
+1. "buffer overflow" is the Vulnerability Type.
+2. "eject command on SGI IRIX systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+root privileges via buffer overflow in login/scheme command on SGI IRIX systems.
+1. "buffer overflow" is the Vulnerability Type.
+2. "login/scheme command on SGI IRIX systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+root privileges via buffer overflow in ordist command on SGI IRIX systems.
+1. "buffer overflow" is the Vulnerability Type.
+2. "ordist command on SGI IRIX systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+root privileges via buffer overflow in xlock command on SGI IRIX systems.
+1. "buffer overflow" is the Vulnerability Type.
+2. "xlock command on SGI IRIX systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "root privileges" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+JavaScript in Internet Explorer 3.x and 4.x, and Netscape 2.x, 3.x and 4.x, allows remote attackers to monitor a user's web activities, aka the Bell Labs vulnerability.
+1. "JavaScript in Internet Explorer 3.x and 4.x, and Netscape 2.x, 3.x and 4.x" is the Affected Product.
+2. "" is the Root Cause.
+3. "remote attackers" is the Attacker Type.
+4. "monitor a user's web activities" is the Impact.
+5. "aka the Bell Labs vulnerability" is the Vulnerability Type.
+6. "" is the Attacker Vector.
+Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "lpr, as used in BSD-based systems including Linux" is the Affected Product.
+3. "a long -C (classification) command line option" is the Root Cause.
+4. "execute arbitrary code as root" is the Impact.
+5. "local users" is the Attacker Type.
+6. "via a long -C (classification) command line option" is the Attacker Vector.
+Command execution in Sun systems via buffer overflow in the at program.
+1. "buffer overflow" is the Vulnerability Type.
+2. "in the at program" is the Root Cause.
+3. "Sun systems" is the Affected Product.
+4. "command execution" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in suidperl (sperl), Perl 4.x and 5.x.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "suidperl (sperl), Perl 4.x and 5.x" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Race condition in signal handling routine in ftpd, allowing read/write arbitrary files.
+1. "Race condition in signal handling routine" is the Root Cause.
+2. "ftpd" is the Affected Product.
+3. "read/write arbitrary files" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+IRIX login program with a nonzero LOCKOUT parameter allows creation or damage to files.
+1. "IRIX login program with a nonzero LOCKOUT parameter" is the Affected Product.
+2. "" is the Root Cause.
+3. "allows creation or damage to files" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Arbitrary command execution via metamail package using message headers, when user processes attacker's message using metamail.
+1. "Arbitrary command execution" is the Vulnerability Type.
+2. "metamail package" is the Affected Product.
+3. "using message headers" is the Root Cause.
+4. "when user processes attacker's message using metamail" is the Attack Vector.
+5. "execute arbitrary commands" is the Impact.
+6. "attacker" is the Attacker Type.
+Buffer overflow in xlock program allows local users to execute commands as root.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "xlock program" is the Affected Product.
+3. "" is the Root Cause.
+4. "execute commands as root" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+webdist CGI program (webdist.cgi) in SGI IRIX allows remote attackers to execute arbitrary commands via shell metacharacters in the distloc parameter.
+1. "webdist CGI program (webdist.cgi) in SGI IRIX" is the Affected Product.
+2. "" is the Root Cause.
+3. "remote attackers" is the Attacker Type.
+4. "execute arbitrary commands" is the Impact.
+5. "via shell metacharacters in the distloc parameter" is the Attacker Vector.
+6. "" is the Vulnerability Type.
+Buffer overflow in Xt library of X Windowing System allows local users to execute commands with root privileges.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "Xt library of X Windowing System" is the Affected Product.
+3. "" is the Root Cause.
+4. "execute commands with root privileges" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in NLS (Natural Language Service).
+1. "Buffer overflow" is the Vulnerability Type.
+2. "NLS (Natural Language Service)" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in University of Washington's implementation of IMAP and POP servers.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "University of Washington's implementation of IMAP and POP servers" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Command execution via shell metachars in INN daemon (innd) 1.5 using ""newgroup"" and ""rmgroup"" control messages, and others.
+1. "Command execution" is the Impact.
+2. "INN daemon (innd) 1.5" is the Affected Product.
+3. "shell metachars" is the Root Cause.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "using ""newgroup"" and ""rmgroup"" control messages, and others." is the Attacker Vector.
+fsdump command in IRIX allows local users to obtain root access by modifying sensitive files.
+1. "fsdump command in IRIX" is the Affected Product.
+2. "modifying sensitive files" is the Root Cause.
+3. "local users" is the Attacker Type.
+4. "obtain root access" is the Impact.
+5. "" is the Vulnerability Type.
+6. "" is the Attacker Vector.
+List of arbitrary files on Web host via nph-test-cgi script.
+1. "" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "Web host" is the Affected Product.
+4. "List of arbitrary files" is the Impact.
+5. "remote attackers" is the Attacker Type.
+6. "via nph-test-cgi script" is the Attacker Vector.
+Buffer overflow of rlogin program using TERM environmental variable.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "rlogin program using TERM environmental variable" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+MIME conversion buffer overflow in sendmail versions 8.8.3 and 8.8.4.
+1. "MIME conversion buffer overflow" is the Vulnerability Type.
+2. "sendmail versions 8.8.3 and 8.8.4" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Talkd, when given corrupt DNS information, can be used to execute arbitrary commands with root privileges.
+1. "Talkd" is the Affected Product.
+2. "given corrupt DNS information" is the Root Cause.
+3. "execute arbitrary commands with root privileges" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Csetup under IRIX allows arbitrary file creation or overwriting.
+1. "Csetup under IRIX" is the Affected Product.
+2. "" is the Root Cause.
+3. "arbitrary file creation or overwriting" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in HP-UX newgrp program.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "HP-UX newgrp program" is the Affected Product.
+3. "" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Arbitrary file creation and program execution using FLEXlm LicenseManager, from versions 4.0 to 5.0, in IRIX.
+1. "FLEXlm LicenseManager, from versions 4.0 to 5.0, in IRIX" is the Affected Product.
+2. "Arbitrary file creation and program execution" is the Impact.
+3. "" is the Root Cause.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+IP fragmentation denial of service in FreeBSD allows a remote attacker to cause a crash.
+1. "IP fragmentation" is the Vulnerability Type.
+2. "FreeBSD" is the Affected Product.
+3. "" is the Root Cause.
+4. "cause a crash" is the Impact.
+5. "remote attacker" is the Attacker Type.
+6. "" is the Attacker Vector.
+TCP RST denial of service in FreeBSD.
+1. "TCP RST" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "FreeBSD" is the Affected Product.
+4. "denial of service" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Sun's ftpd daemon can be subjected to a denial of service.
+1. "Sun's ftpd daemon" is the Affected Product.
+2. "" is the Root Cause.
+3. "denial of service" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflows in Sun libnsl allow root access.
+1. "Buffer overflows" is the Vulnerability Type.
+2. "Sun libnsl" is the Affected Product.
+3. "" is the Root Cause.
+4. "allow root access" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in Sun's ping program can give root access to local users.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "Sun's ping program" is the Affected Product.
+3. "" is the Root Cause.
+4. "give root access to local users" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Vacation program allows command execution by remote users through a sendmail command.
+1. "Vacation program" is the Affected Product.
+2. "" is the Root Cause.
+3. "command execution" is the Impact.
+4. "" is the Vulnerability Type.
+5. "remote users" is the Attacker Type.
+6. "through a sendmail command" is the Attacker Vector.
+Buffer overflow in PHP cgi program, php.cgi allows shell access.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "PHP cgi program, php.cgi" is the Affected Product.
+3. "" is the Root Cause.
+4. "shell access" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+IRIX fam service allows an attacker to obtain a list of all files on the server.
+1. "IRIX fam service" is the Affected Product.
+2. "" is the Root Cause.
+3. "obtain a list of all files on the server" is the Impact.
+4. "" is the Vulnerability Type.
+5. "attacker" is the Attacker Type.
+6. "" is the Attacker Vector.
+Attackers can cause a denial of service in Ascend MAX and Pipeline routers with a malformed packet to the discard port, which is used by the Java Configurator tool.
+1. "" is the Vulnerability Type.
+2. "Ascend MAX and Pipeline routers" is the Affected Product.
+3. "malformed packet to the discard port" is the Root Cause.
+4. "cause a denial of service" is the Impact.
+5. "attackers" is the Attacker Type.
+6. "which is used by the Java Configurator tool" is the Attacker Vector.
+File creation and deletion, and remote execution, in the BSD line printer daemon (lpd).
+1. "BSD line printer daemon (lpd)" is the Affected Product.
+2. "File creation and deletion, and remote execution" is the Impact.
+3. "" is the Root Cause.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+The chpass command in OpenBSD allows a local user to gain root access through file descriptor leakage.
+1. "The chpass command in OpenBSD" is the Affected Product.
+2. "file descriptor leakage" is the Root Cause.
+3. "gain root access" is the Impact.
+4. "" is the Vulnerability Type.
+5. "local user" is the Attacker Type.
+6. "" is the Attacker Vector.
+Cisco IOS 12.0 and other versions can be crashed by malicious UDP packets to the syslog port.
+1. "Cisco IOS 12.0 and other versions" is the Affected Product.
+2. "" is the Root Cause.
+3. "can be crashed" is the Impact.
+4. "" is the Vulnerability Type.
+5. "malicious UDP packets" is the Attacker Type.
+6. "to the syslog port" is the Attacker Vector.
+Buffer overflow in AIX lquerylv program gives root access to local users.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "AIX lquerylv program" is the Affected Product.
+3. "" is the Root Cause.
+4. "gives root access to local users" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Multiple buffer overflows in how dtmail handles attachments allows a remote attacker to execute commands.
+1. "Multiple buffer overflows" is the Vulnerability Type.
+2. "how dtmail handles attachments" is the Affected Product.
+3. "" is the Root Cause.
+4. "execute commands" is the Impact.
+5. "remote attacker" is the Attacker Type.
+6. "" is the Attacker Vector.
+AnyForm CGI remote execution.
+1. "AnyForm CGI" is the Affected Product.
+2. "" is the Root Cause.
+3. "remote execution" is the Impact.
+4. "" is the Vulnerability Type.
+5. "remote attackers" is the Attacker Type.
+6. "" is the Attacker Vector.
+phf CGI program allows remote command execution through shell metacharacters.
+1. "phf CGI program" is the Affected Product.
+2. "shell metacharacters" is the Root Cause.
+3. "remote command execution" is the Impact.
+4. "" is the Vulnerability Type.
+5. "remote attackers" is the Attacker Type.
+6. "through shell metacharacters" is the Attacker Vector.
+CGI PHP mylog script allows an attacker to read any file on the target server.
+1. "CGI PHP mylog script" is the Affected Product.
+2. "" is the Root Cause.
+3. "an attacker to read any file on the target server" is the Impact.
+4. "" is the Vulnerability Type.
+5. "attacker" is the Attacker Type.
+6. "" is the Attacker Vector.
+Solaris ufsrestore buffer overflow.
+1. "Solaris ufsrestore" is the Affected Product.
+2. "" is the Root Cause.
+3. "" is the Impact.
+4. "buffer overflow" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+test-cgi program allows an attacker to list files on the server.
+1. "test-cgi program" is the Affected Product.
+2. "" is the Root Cause.
+3. "list files on the server" is the Impact.
+4. "" is the Vulnerability Type.
+5. "attacker" is the Attacker Type.
+6. "" is the Attacker Vector.
+Apache httpd cookie buffer overflow for versions 1.1.1 and earlier.
+1. "Apache httpd" is the Affected Product.
+2. "cookie buffer overflow" is the Vulnerability Type.
+3. "for versions 1.1.1 and earlier" is the Root Cause.
+4. "" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in AIX xdat gives root access to local users.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "AIX xdat" is the Affected Product.
+3. "" is the Root Cause.
+4. "root access to local users" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access.
+1. "Telnet" is the Affected Product.
+2. "allows a remote client to specify environment variables including LD_LIBRARY_PATH" is the Root Cause.
+3. "bypass the normal system libraries and gain root access" is the Impact.
+4. "" is the Vulnerability Type.
+5. "attacker" is the Attacker Type.
+6. "remotely" is the Attacker Vector.
+Listening TCP ports are sequentially allocated, allowing spoofing attacks.
+1. "" is the Vulnerability Type.
+2. "Listening TCP ports are sequentially allocated" is the Root Cause.
+3. "" is the Affected Product.
+4. "spoofing attacks" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+PASV core dump in wu-ftpd daemon when attacker uses a QUOTE PASV command after specifying a username and password.
+1. "PASV core dump" is the Impact.
+2. "wu-ftpd daemon" is the Affected Product.
+3. "attacker uses a QUOTE PASV command after specifying a username and password" is the Attacker Vector.
+4. "" is the Root Cause.
+5. "" is the Vulnerability Type.
+6. "" is the Attacker Type.
+Buffer overflow in wu-ftp from PASV command causes a core dump.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "wu-ftp" is the Affected Product.
+3. "from PASV command" is the Root Cause.
+4. "causes a core dump" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Predictable TCP sequence numbers allow spoofing.
+1. "Predictable TCP sequence numbers" is the Root Cause.
+2. "spoofing" is the Impact.
+3. "" is the Vulnerability Type.
+4. "" is the Affected Product.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+pcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call.
+1. "pcnfsd (aka rpc.pcnfsd)" is the Affected Product.
+2. "" is the Root Cause.
+3. "change file permissions, or execute arbitrary commands" is the Impact.
+4. "" is the Vulnerability Type.
+5. "local users" is the Attacker Type.
+6. "through arguments in the RPC call" is the Attacker Vector.
+Remote attackers can cause a denial of service in FTP by issuing multiple PASV commands, causing the server to run out of available ports.
+1. "" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "" is the Affected Product.
+4. "cause a denial of service" is the Impact.
+5. "remote attackers" is the Attacker Type.
+6. "by issuing multiple PASV commands, causing the server to run out of available ports" is the Attacker Vector.
+Certain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the ""site exec"" command.
+1. "Certain configurations of wu-ftp FTP server 2.4" is the Affected Product.
+2. "_PATH_EXECPATH setting to a directory with dangerous commands, such as /bin" is the Root Cause.
+3. "remote authenticated users" is the Attacker Type.
+4. "gain root access" is the Impact.
+5. "via the ""site exec"" command" is the Attacker Vector.
+6. "" is the Vulnerability Type.
+wu-ftp allows files to be overwritten via the rnfr command.
+1. "wu-ftp" is the Affected Product.
+2. "" is the Root Cause.
+3. "files to be overwritten" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "via the rnfr command" is the Attacker Vector.
+CWD ~root command in ftpd allows root access.
+1. "ftpd" is the Affected Product.
+2. "CWD ~root command" is the Root Cause.
+3. "root access" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+getcwd() file descriptor leak in FTP.
+1. "getcwd() file descriptor leak" is the Vulnerability Type.
+2. "" is the Root Cause.
+3. "FTP" is the Affected Product.
+4. "leak" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.
+1. "Certain NFS servers" is the Affected Product.
+2. "users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0" is the Root Cause.
+3. "gain privileges" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in rwhod on AIX and other operating systems allows remote attackers to execute arbitrary code via a UDP packet with a long hostname.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "rwhod on AIX and other operating systems" is the Affected Product.
+3. "" is the Root Cause.
+4. "execute arbitrary code" is the Impact.
+5. "remote attackers" is the Attacker Type.
+6. "via a UDP packet with a long hostname" is the Attacker Vector.
+AIX routed allows remote users to modify sensitive files.
+1. "AIX routed" is the Affected Product.
+2. "" is the Root Cause.
+3. "remote users to modify sensitive files" is the Impact.
+4. "" is the Vulnerability Type.
+5. "remote users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Denial of service in AIX telnet can freeze a system and prevent users from accessing the server.
+1. "Denial of service" is the Vulnerability Type.
+2. "AIX telnet" is the Affected Product.
+3. "" is the Root Cause.
+4. "freeze a system and prevent users from accessing the server" is the Impact.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+IRIX and AIX automountd services (autofsd) allow remote users to execute root commands.
+1. "IRIX and AIX automountd services (autofsd)" is the Affected Product.
+2. "" is the Root Cause.
+3. "remote users" is the Attacker Type.
+4. "execute root commands" is the Impact.
+5. "remote" is the Attacker Vector.
+6. "" is the Vulnerability Type.
+Buffer overflow in AIX libDtSvc library can allow local users to gain root access.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "AIX libDtSvc library" is the Affected Product.
+3. "" is the Root Cause.
+4. "gain root access" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in AIX rcp command allows local users to obtain root access.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "AIX rcp command" is the Affected Product.
+3. "" is the Root Cause.
+4. "obtain root access" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Buffer overflow in AIX writesrv command allows local users to obtain root access.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "AIX writesrv command" is the Affected Product.
+3. "" is the Root Cause.
+4. "obtain root access" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+Various vulnerabilities in the AIX portmir command allows local users to obtain root access.
+1. "Various vulnerabilities" is the Vulnerability Type.
+2. "in the AIX portmir command" is the Affected Product.
+3. "" is the Root Cause.
+4. "obtain root access" is the Impact.
+5. "local users" is the Attacker Type.
+6. "" is the Attacker Vector.
+AIX nslookup command allows local users to obtain root access by not dropping privileges correctly.
+1. "AIX nslookup command" is the Affected Product.
+2. "not dropping privileges correctly" is the Root Cause.
+3. "local users" is the Attacker Type.
+4. "obtain root access" is the Impact.
+5. "" is the Vulnerability Type.
+6. "" is the Attacker Vector.
+AIX piodmgrsu command allows local users to gain additional group privileges.
+1. "AIX piodmgrsu command" is the Affected Product.
+2. "local users" is the Attacker Type.
+3. "gain additional group privileges" is the Impact.
+4. "" is the Root Cause.
+5. "" is the Vulnerability Type.
+6. "" is the Attacker Vector.
+The debug command in Sendmail is enabled, allowing attackers to execute commands as root.
+1. "The debug command in Sendmail" is the Affected Product.
+2. "enabled" is the Root Cause.
+3. "execute commands as root" is the Impact.
+4. "" is the Vulnerability Type.
+5. "attackers" is the Attacker Type.
+6. "" is the Attacker Vector.
+Sendmail decode alias can be used to overwrite sensitive files.
+1. "Sendmail decode alias" is the Affected Product.
+2. "" is the Root Cause.
+3. "overwrite sensitive files" is the Impact.
+4. "" is the Vulnerability Type.
+5. "" is the Attacker Type.
+6. "" is the Attacker Vector.
+The AIX FTP client can be forced to execute commands from a malicious server through shell metacharacters (e.g. a pipe character).
+1. "The AIX FTP client" is the Affected Product.
+2. "can be forced to execute commands from a malicious server" is the Impact.
+3. "through shell metacharacters (e.g. a pipe character)" is the Attack Vector.
+4. "" is the Vulnerability Type.
+5. "" is the Root Cause.
+6. "" is the Attacker Type.
+Buffer overflow in SMTP HELO command in Sendmail allows a remote attacker to hide activities.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "SMTP HELO command in Sendmail" is the Affected Product.
+3. "remote attacker" is the Attacker Type.
+4. "hide activities" is the Impact.
+5. "via SMTP HELO command" is the Attacker Vector.
+6. "" is the Root Cause.
+Buffer overflow in syslog utility allows local or remote attackers to gain root privileges.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "syslog utility" is the Affected Product.
+3. "" is the Root Cause.
+4. "gain root privileges" is the Impact.
+5. "local or remote attackers" is the Attacker Type.
+6. "" is the Attacker Vector.
+Remote access in AIX innd 1.5.1, using control messages.
+1. "AIX innd 1.5.1" is the Affected Product.
+2. "" is the Root Cause.
+3. "Remote access" is the Impact.
+4. "" is the Vulnerability Type.
+5. "using control messages" is the Attacker Vector.
+6. "" is the Attacker Type.
+Buffer overflow in AIX and Solaris ""gethostbyname"" library call allows root access through corrupt DNS host names.
+1. "Buffer overflow" is the Vulnerability Type.
+2. "AIX and Solaris ""gethostbyname"" library call" is the Affected Product.
+3. "corrupt DNS host names" is the Root Cause.
+4. "root access" is the Impact.
+5. "" is the Attacker Type.
+6. "through corrupt DNS host names" is the Attacker Vector.

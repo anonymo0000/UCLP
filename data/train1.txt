@@ -1,0 +1,417 @@
+0 2 DaDaBIK 4.3 beta3, when running in a case-sensitive environment, does not include the htmLawed library, which allows remote attackers to bypass the protection mechanism for CVE-2010-4355 and conduct cross-site scripting (XSS) attacks via the (1) html content and (2) rich_editor fields.  NOTE: some of these details are obtained from third party information.
+
+
+0 3 Unspecified vulnerability in the Intel Trusted Execution Technology (TXT) SINIT Authenticated Code Modules (ACM) before 1.2, as used by the Intel QM77, QS77, Q77 Express, C216, Q67 Express, C202, C204, and C206 chipsets and Mobile Intel QM67 and QS67 chipsets, when the measured launch environment (MLE) is invoked, allows local users to bypass the Trusted Execution Technology protection mechanism and perform other unspecified SINIT ACM functions via unspecified vectors.
+
+
+2 4 The Linux kernel 2.4.20 and earlier, and 2.5.x, when running on x86 systems, allows local users to cause a denial of service (hang) via the emulation mode, which does not properly clear TF and NT EFLAGs.
+
+
+2 3 CVS 1.12 and earlier on Debian GNU/Linux, when using the repouid patch, allows remote attackers to bypass authentication via the pserver access method.
+
+
+2 3 The Administration Console in BEA WebLogic Express and WebLogic Server 9.0 and 9.1 does not properly enforce certain Domain Security Policies, which allows remote administrative users in the Deployer role to upload arbitrary files.
+
+
+2 3 The Remote Apple Events server in Apple Mac OS X 10.4.11 and 10.5.6 does not properly initialize a buffer, which allows remote attackers to read portions of memory.
+
+
+2 3 The RPC Marshalling Engine (aka NDR) in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 does not properly maintain its internal state, which allows remote attackers to overwrite arbitrary memory locations via a crafted RPC message that triggers incorrect pointer reading, related to ""IDL interfaces containing a non-conformant varying array"" and FC_SMVARRAY, FC_LGVARRAY, FC_VARIABLE_REPEAT, and FC_VARIABLE_OFFSET, aka ""RPC Marshalling Engine Vulnerability.""
+
+
+2 5 oggparsevorbis.c in FFmpeg 0.5 does not properly perform certain pointer arithmetic, which might allow remote attackers to obtain sensitive memory contents and cause a denial of service via a crafted file that triggers an out-of-bounds read.
+
+
+2 3 IBM System Storage Storwize V7000 Unified 1.3.x and 1.4.x before 1.4.3.0 does not properly restrict the content of a dump file upon encountering a 1691 hardware fault, which allows remote authenticated users to obtain sensitive customer-data fragments by reading this file after it is copied.
+
+
+2 3 The Service Workers subsystem in Google Chrome before 52.0.2743.82 does not properly implement the Secure Contexts specification during decisions about whether to control a subframe, which allows remote attackers to bypass the Same Origin Policy via an https IFRAME element inside an http IFRAME element.
+
+
+2 3 A function in the Teradici PCoIP Standard Agent for Windows and Graphics Agent for Windows prior to version 20.04.1 does not properly validate the signature of an external binary, which could allow an attacker to gain elevated privileges via execution in the context of the PCoIP Agent process.
+
+
+2 3 The TSB I-TLB load implementation in arch/sparc/kernel/tsb.S in the Linux kernel before 2.6.33 on the SPARC platform does not properly obtain the value of a certain _PAGE_EXEC_4U bit and consequently does not properly implement a non-executable stack, which makes it easier for context-dependent attackers to exploit stack-based buffer overflows via a crafted application.
+
+
+4 3 Microsoft Outlook 2000 and 2003, when configured to use Microsoft Word 2000 or 2003 as the e-mail editor and when forwarding e-mail, does not properly handle an opening OBJECT tag that does not have a closing OBJECT tag, which causes Outlook to automatically download the URI in the data property of the OBJECT tag and might allow remote attackers to execute arbitrary code.
+
+
+4 1 Apple QuickTime before 7.5.5 does not properly handle (1) MDAT atoms in MP4 video files within QuickTimeH264.qtx, (2) MDAT atoms in mov video files within QuickTimeH264.scalar, and (3) AVC1 atoms in an unknown media type within an unspecified component, which allows remote attackers to execute arbitrary code or cause a denial of service (heap corruption and application crash) via a crafted, H.264 encoded movie file.
+
+
+4 3 Google Chrome before 6.0.472.59 does not properly implement Geolocation, which allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via unknown vectors.
+
+
+4 2 The HZ-GB-2312 character-set implementation in Mozilla Firefox before 17.0, Firefox ESR 10.x before 10.0.11, Thunderbird before 17.0, Thunderbird ESR 10.x before 10.0.11, and SeaMonkey before 2.14 does not properly handle a ~ (tilde) character in proximity to a chunk delimiter, which allows remote attackers to conduct cross-site scripting (XSS) attacks via a crafted document.
+
+
+4 3 The PDF functionality in Google Chrome before 24.0.1312.52 does not properly perform a cast of an unspecified variable during processing of the root of the structure tree, which allows remote attackers to cause a denial of service or possibly have unknown other impact via a crafted document.
+
+
+4 2 ImageIO in Apple iOS before 8.4.1 and OS X before 10.10.5 does not properly initialize an unspecified data structure, which allows remote attackers to obtain sensitive information from process memory via a crafted TIFF image.
+
+
+4 2 Microsoft Internet Explorer 8 through 11 mishandles HTML attributes in HTTP responses, which allows remote attackers to bypass a cross-site scripting (XSS) protection mechanism via unspecified vectors, aka ""Internet Explorer XSS Filter Bypass Vulnerability.""
+
+
+4 3 The Collne Welcart e-Commerce plugin before 1.8.3 for WordPress mishandles sessions, which allows remote attackers to obtain access by leveraging knowledge of the e-mail address associated with an account.
+
+
+4 3 The PDF24 Articles To PDF WordPress plugin through 4.2.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack
+
+
+4 3 Mahara before 1.3.6 does not properly handle an https URL in the wwwroot configuration setting, which makes it easier for user-assisted remote attackers to obtain credentials by sniffing the network at a time when an http URL is used for a login.
+
+
+4 3 A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge, aka ""Chakra Scripting Engine Memory Corruption Vulnerability."" This affects Microsoft Edge, ChakraCore. This CVE ID is unique from CVE-2018-8130, CVE-2018-8133, CVE-2018-8145, CVE-2018-8177.
+
+
+4 1 A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka ""Scripting Engine Memory Corruption Vulnerability."" This affects Internet Explorer 9, Internet Explorer 11, Internet Explorer 10. This CVE ID is unique from CVE-2018-8355, CVE-2018-8359, CVE-2018-8371, CVE-2018-8372, CVE-2018-8373, CVE-2018-8385, CVE-2018-8389, CVE-2018-8390.
+
+
+4 3 A remote code execution vulnerability exists in the way that the ChakraCore scripting engine handles objects in memory, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-0609, CVE-2019-0680, CVE-2019-0769, CVE-2019-0770, CVE-2019-0771, CVE-2019-0773, CVE-2019-0783.
+
+
+4 3 A remote code execution vulnerability exists in the way the scripting engine handles objects in memory in Microsoft browsers, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-1004, CVE-2019-1056, CVE-2019-1059.
+
+
+4 3 A remote code execution vulnerability exists in the way that the ChakraCore scripting engine handles objects in memory, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0673, CVE-2020-0674, CVE-2020-0710, CVE-2020-0711, CVE-2020-0713, CVE-2020-0767.
+
+
+4 3 A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge (HTML-based), aka 'Chakra Scripting Engine Memory Corruption Vulnerability'.
+
+
+4 3 A security feature bypass vulnerability exists in SQL Server Reporting Services (SSRS) when the server improperly validates attachments uploaded to reports, aka 'SQL Server Reporting Services Security Feature Bypass Vulnerability'.
+
+
+4 3 An information disclosure vulnerability exists when the Windows kernel improperly handles objects in memory, aka 'Windows Kernel Information Disclosure Vulnerability'.
+
+
+4 9 Git is an open source, scalable, distributed revision control system. Versions prior to 2.30.6, 2.31.5, 2.32.4, 2.33.5, 2.34.5, 2.35.5, 2.36.3, and 2.37.4 are subject to exposure of sensitive information to a malicious actor. When performing a local clone (where the source and target of the clone are on the same volume), Git copies the contents of the source's `$GIT_DIR/objects` directory into the destination by either creating hardlinks to the source contents, or copying them (if hardlinks are disabled via `--no-hardlinks`). A malicious actor could convince a victim to clone a repository with a symbolic link pointing at sensitive information on the victim's machine. This can be done either by having the victim clone a malicious repository on the same machine, or having them clone a malicious repository embedded as a bare repository via a submodule from any source, provided they clone with the `--recurse-submodules` option. Git does not create symbolic links in the `$GIT_DIR/objects` directory. The problem has been patched in the versions published on 2022-10-18, and backported to v2.30.x. Potential workarounds: Avoid cloning untrusted repositories using the `--local` optimization when on a shared machine, either by passing the `--no-local` option to `git clone` or cloning from a URL that uses the `file://` scheme. Alternatively, avoid cloning repositories from untrusted sources with `--recurse-submodules` or run `git config --global protocol.file.allow user`.
+
+
+5 3 The network-statistics interface in the kernel in Apple iOS before 8 and Apple TV before 7 does not properly initialize memory, which allows attackers to obtain sensitive memory-content and memory-layout information via a crafted application, a different vulnerability than CVE-2014-4371, CVE-2014-4419, and CVE-2014-4421.
+
+
+5 3 The webrtc::VPMContentAnalysis::Release function in the WebRTC implementation in Mozilla Firefox before 37.0 uses incompatible approaches to the deallocation of memory for simple-type arrays, which might allow remote attackers to cause a denial of service (memory corruption) via unspecified vectors.
+
+
+5 3 The System Management Mode (SMM) implementation in Dell Latitude E6430 BIOS Revision A09, HP EliteBook 850 G1 BIOS revision L71 Ver. 01.09, and possibly other BIOS implementations does not ensure that function calls operate on SMRAM memory locations, which allows local users to bypass the Secure Boot protection mechanism and gain privileges by leveraging write access to physical memory.
+
+
+5 4 The Zone::New function in zone.cc in Google V8 before 5.0.71.47, as used in Google Chrome before 50.0.2661.102, does not properly determine when to expand certain memory allocations, which allows remote attackers to cause a denial of service (buffer overflow) or possibly have unspecified other impact via crafted JavaScript code.
+
+
+5 1 The mintToken function of a smart contract implementation for MSXAdvanced, an Ethereum token, has an integer overflow that allows the owner of the contract to set the balance of an arbitrary user to any value.
+
+
+5 1 The mintToken function of a smart contract implementation for doccoin, an Ethereum token, has an integer overflow that allows the owner of the contract to set the balance of an arbitrary user to any value.
+
+
+5 2 An exploitable code execution vulnerability exists in the JPEG2000 Stripe Decoding functionality of Nitro Software, Inc.&#8217;s Nitro Pro 13.13.2.242 when decoding sub-samples. While initializing tiles with sub-sample data, the application can miscalculate a pointer for the stripes in the tile which allow for the decoder to write out of-bounds and cause memory corruption. This can result in code execution. A specially crafted image can be embedded inside a PDF and loaded by a victim in order to trigger this vulnerability.
+
+
+5 2 An information disclosure vulnerability exists when the Windows GDI component improperly discloses the contents of its memory, aka ""Windows GDI Information Disclosure Vulnerability."" This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8422.
+
+
+5 3 An information disclosure vulnerability exists when the Windows GDI component improperly discloses the contents of its memory, aka 'Windows GDI Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-0968, CVE-2019-0977, CVE-2019-1009, CVE-2019-1010, CVE-2019-1011, CVE-2019-1012, CVE-2019-1013, CVE-2019-1015, CVE-2019-1016, CVE-2019-1046, CVE-2019-1047, CVE-2019-1048, CVE-2019-1050.
+
+
+5 3 In kisd, there is a possible memory corruption due to a heap buffer overflow. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Product: Android; Versions: Android-11; Patch ID: ALPS05425247.
+
+
+5 2 In sec_media_protect of media.c, there is a possible EoP due to an integer overflow. This could lead to local escalation of privilege of secure mode MFC Core with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-242357514References: N/A
+
+
+6 3 Jupiter CMS 1.1.5, when display_errors is enabled, allows remote attackers to obtain the full server path via a direct request to modules/online.php.
+
+
+6 3 Kiwi CatTools before 3.2.0 beta uses weak encryption (""reversible encoding"") for passwords, account names, and IP addresses in kiwidb-cattools.kdb, which might allow local users to gain sensitive information by decrypting the file.  NOTE: this issue could be leveraged with a directory traversal vulnerability for a remote attack vector.
+
+
+6 3 The snd_hdsp_hwdep_ioctl function in sound/pci/rme9652/hdsp.c in the Linux kernel before 2.6.36-rc6 does not initialize a certain structure, which allows local users to obtain potentially sensitive information from kernel stack memory via an SNDRV_HDSP_IOCTL_GET_CONFIG_INFO ioctl call.
+
+
+6 3 Apache CXF before 2.5.9, 2.6.x before 2.6.6, and 2.7.x before 2.7.3, when the plaintext UsernameToken WS-SecurityPolicy is enabled, allows remote attackers to bypass authentication via a security header of a SOAP request containing a UsernameToken element that lacks a password child element.
+
+
+6 2 libavcodec/jpeg2000dec.c in FFmpeg before 2.1 does not ensure the use of valid code-block dimension values, which allows remote attackers to cause a denial of service (out-of-bounds array access) or possibly have unspecified other impact via crafted JPEG2000 data.
+
+
+6 2 Out-of-Bounds read vulnerability in Foxit Reader and PhantomPDF before 8.1 on Windows, when the gflags app is enabled, allows remote attackers to execute arbitrary code via a crafted BMP image embedded in the XFA stream in a PDF document, aka ""Data from Faulting Address may be used as a return value starting at FOXITREADER.""
+
+
+6 2 Telerik.Web.UI in Progress Telerik UI for ASP.NET AJAX before R1 2017 and R2 before R2 2017 SP2 uses weak RadAsyncUpload encryption, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
+
+
+6 4 An issue was discovered in tls_verify_crl in ProFTPD before 1.3.6. A wrong iteration variable, used when checking a client certificate against CRL entries (installed by a system administrator), can cause some CRL entries to be ignored, and can allow clients whose certificates have been revoked to proceed with a connection to the server.
+
+
+6 3 Delta Electronics CNCSoft-B Versions 1.0.0.2 and prior has a type confusion issue while processing project files, which may allow an attacker to execute arbitrary code.
+
+
+6 3 An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.11 before 13.11.7, all versions starting from 13.12 before 13.12.8, and all versions starting from 14.0 before 14.0.4. A specially crafted design image allowed attackers to read arbitrary files on the server.
+
+
+6 3 ** DISPUTED ** Adding a new pipeline in GoCD server version 21.3.0 has a functionality that could be abused to do an un-intended action in order to achieve a Server Side Request Forgery (SSRF). NOTE: the vendor's position is that the observed behavior is not a vulnerability, because the product's design allows an admin to configure outbound requests.
+
+
+6 3 Delta Electronics DIAEnergie (All versions prior to 1.8.02.004) has a blind SQL injection vulnerability exists in DIAE_privgrpHandler.ashx. This allows an attacker to inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands.
+
+
+6 3 Sharp Zaurus PDA SL-5000D and SL-5500 uses a salt of ""A0"" to encrypt the screen-locking password as stored in the Security.conf file, which makes it easier for local users to guess the password via brute force methods.
+
+
+6 2 Typo 5.1.3 and earlier uses a hard-coded salt for calculating password hashes, which makes it easier for attackers to guess passwords via a brute force attack.
+
+
+6 3 A man-in-the-middle attacker can inject false responses to the client's first few queries, despite the use of SSL certificate verification and encryption.
+
+
+6 2 Ecobee Ecobee4 4.2.0.171 devices can be forced to deauthenticate and connect to an unencrypted Wi-Fi network with the same SSID, even if the device settings specify use of encryption such as WPA2, as long as the competing network has a stronger signal. An attacker must be able to set up a nearby SSID, similar to an ""Evil Twin"" attack.
+
+
+6 2 shescape is a simple shell escape package for JavaScript. In shescape before version 1.1.3, anyone using _Shescape_ to defend against shell injection may still be vulnerable against shell injection if the attacker manages to insert a into the payload. For an example see the referenced GitHub Security Advisory. The problem has been patched in version 1.1.3. No further changes are required.
+
+
+6 2 In pinReplyNative of com_android_bluetooth_btservice_AdapterService.cpp, there is a possible out of bounds read due to type confusion. This could lead to local escalation of privilege of BLE with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-228602963
+
+
+7 8 In __configfs_open_file of file.c, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in the kernel with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-174049066References: Upstream kernel
+
+
+9 3 activeWeb contentserver CMS before 5.6.2964 does not limit the file-creation ability of editors who have restricted accounts, which allows these editors to create files in arbitrary directories.
+
+
+9 3 The ZyXEL P-660HW series router has ""admin"" as its default password, which allows remote attackers to gain administrative access.
+
+
+9 4 php_imap.c in PHP 5.2.5, 5.2.6, 4.x, and other versions, uses obsolete API calls that allow context-dependent attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long IMAP request, which triggers an ""rfc822.c legacy routine buffer overflow"" error message, related to the rfc822_write_address function.
+
+
+9 3 HP Operations Dashboard has a default password of j2deployer for the j2deployer account, which allows remote attackers to execute arbitrary code via a session that uses the manager role to conduct unrestricted file upload attacks against the /manager servlet in the Tomcat servlet container.  NOTE: this might overlap CVE-2009-3098.
+
+
+9 3 The default checkout completion rule in the commerce_order module in the Drupal Commerce module 7.x-1.x before 7.x-1.10 for Drupal uses the email address as the username for new accounts created at checkout, which allows remote attackers to obtain sensitive information via unspecified vectors.
+
+
+9 3 Ceragon FibeAir IP-10 have a default SSH public key in the authorized_keys file for the mateidu user, which allows remote attackers to obtain SSH access by leveraging knowledge of the private key.
+
+
+9 3 SysAid Help Desk before 15.2 uses a hardcoded password of Password1 for the sa SQL Server Express user account, which allows remote authenticated users to bypass intended access restrictions by leveraging knowledge of this password.
+
+
+9 3 AVer Information EH6108H+ devices with firmware X9.03.24.00.07l have hardcoded accounts, which allows remote attackers to obtain root access by leveraging knowledge of the credentials and establishing a TELNET session.
+
+
+9 3 Baxter ExactaMix EM 2400 & EM 1200, Versions ExactaMix EM2400 Versions 1.10, 1.11, 1.13, 1.14, ExactaMix EM1200 Versions 1.1, 1.2, 1.4, 1.5, Baxter ExactaMix EM 2400 Versions 1.10, 1.11, 1.13, 1.14 and ExactaMix EM1200 Versions 1.1, 1.2, 1.4 and 1.5 have hard-coded administrative account credentials for the ExactaMix operating system. Successful exploitation of this vulnerability may allow an attacker who has gained unauthorized access to system resources, including access to execute software or to view/update files, directories, or system configuration. This could allow an attacker with network access to view sensitive data including PHI.
+
+
+9 3 The Sitemap by click5 WordPress plugin before 1.0.36 does not have authorisation and CSRF checks when updating options via a REST endpoint, and does not ensure that the option to be updated belongs to the plugin. As a result, unauthenticated attackers could change arbitrary blog options, such as the users_can_register and default_role, allowing them to create a new admin account and take over the blog.
+
+
+9 3 A authentication bypass vulnerability exists in GitLab CE/EE <v12.3.2, <v12.2.6, and <v12.1.10 in the Salesforce login integration that could be used by an attacker to create an account that bypassed domain restrictions and email verification requirements.
+
+
+10 2 Heap-based buffer overflow in the LZWDecodeVector function in Mac OS X before 10.4.6, as used in applications that use ImageIO or AppKit, allows remote attackers to execute arbitrary code via crafted TIFF images.
+
+
+10 2 The edit_textarea function in form-file.c in Netrik 1.15.4 and earlier does not properly verify temporary filenames when editing textarea fields, which allows attackers to execute arbitrary commands via shell metacharacters in the filename.
+
+
+10 2 repository/s3/S3.php in the Amazon S3 library in Moodle through 2.2.11, 2.3.x before 2.3.9, 2.4.x before 2.4.6, and 2.5.x before 2.5.2 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate, related to an incorrect CURLOPT_SSL_VERIFYHOST value.
+
+
+10 2 The ff_er_frame_end function in libavcodec/error_resilience.c in FFmpeg before 1.0.4 and 1.1.x before 1.1.1 does not properly verify that a frame is fully initialized, which allows remote attackers to trigger a NULL pointer dereference via crafted picture data.
+
+
+10 3 The Where's My Perry? Free (aka com.disney.WMPLite) application 1.5.1 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 2 The Donut Maker (aka com.sunstorm.android.donut) application 1.27 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 2 The Buy Tickets (aka com.xcr.android.buytickets) application 2.3 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 3 The Farm Frenzy Gold (aka com.herocraft.game.farmfrenzy.gold) application 1.0.1 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 2 The Heavy Duty Truck Driver Simulator 3D (aka com.oas.heavy.duty.truck.driver.simulator3d) application 1.0.5 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 2 The 30A (aka com.app30a) application 5.26.2 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 3 The Karim Rahal Essoulami (aka com.karim.rahal.essoulami.lcxogeyuizteegxvnq) application 1.0 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 2 The Ibis pau centre (aka com.myapphone.android.myappibispaucentre) application 1.0 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 3 The Aloha Guide (aka com.aloha.guide.japnese) application 1.3 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 3 The Flood-It (aka com.appspot.eoltek.flood) application 4.2 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 3 The Best Free Giveaways (aka com.wIphone5GiveAways) application 0.1 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+
+10 3 The WHMCS Reseller Module V2 2.0.2 in Softaculous Virtualizor before 2.9.1.0 does not verify the user correctly, which allows remote authenticated users to control other virtual machines managed by Virtualizor by accessing a modified URL.
+
+
+10 5 Uninitialized use in File API in Google Chrome prior to 97.0.4692.71 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page.
+
+
+11 2 Macintosh systems generate large ICMP datagrams in response to malformed datagrams, allowing them to be used as amplifiers in a flood attack.
+
+
+4 9 The default configuration of Cisco Unity 2.x and 3.x does not block international operator calls in the predefined restriction tables, which could allow authenticated users to place international calls using call forwarding.
+
+
+2 6 The design of the Hot Standby Routing Protocol (HSRP), as implemented on Cisco IOS 12.1, when using IRPAS, allows remote attackers to cause a denial of service (CPU consumption) via a router with the same IP address as the interface on which HSRP is running, which causes a loop.
+
+
+11 2 The php_check_safe_mode_include_dir function in fopen_wrappers.c of PHP 4.3.x returns a success value (0) when the safe_mode_include_dir variable is not specified in configuration, which differs from the previous failure value and may allow remote attackers to exploit file include vulnerabilities in PHP applications.
+
+
+2 3 Firefox and Mozilla can associate a cookie with multiple domains when the DNS resolver has a non-root domain in its search list, which allows remote attackers to trick a user into accepting a cookie for a hostname formed via search-list expansion of the hostname entered by the user, or steal a cookie for an expanded hostname, as demonstrated by an attacker who operates an ap1.com Internet web site to steal cookies associated with an ap1.com.example.com intranet web site.
+
+
+11 3 FreeBSD kernel 5.4-STABLE and 6.0 does not completely initialize a buffer before making it available to userland, which could allow local users to read portions of kernel memory.
+
+
+11 2 bin/compile-messages.py in Django 0.95 does not quote argument strings before invoking the msgfmt program through the os.system function, which allows attackers to execute arbitrary commands via shell metacharacters in a (1) .po or (2) .mo file.
+
+
+11 2 Multiple cross-site scripting (XSS) vulnerabilities in F5 FirePass 4100 SSL VPN 5.4.1 through 5.5.2 and 6.0 through 6.0.1, when pre-logon sequences are enabled, allow remote attackers to inject arbitrary web script or HTML via the query string to (1) my.activation.php3 and (2) my.logon.php3.
+
+
+3 2 SQL injection vulnerability in admin/includes/news.inc.php in PHPX 3.5.16, when magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary SQL commands via uppercase characters in the news_id parameter.
+
+
+11 3 Microsoft Internet Explorer 8, and possibly other versions, detects http content in https web pages only when the top-level frame uses https, which allows man-in-the-middle attackers to execute arbitrary web script, in an https site's context, by modifying an http page to include an https iframe that references a script file on an http site, related to ""HTTP-Intended-but-HTTPS-Loadable (HPIHSL) pages.""
+
+
+11 2 Integer overflow in IrfanView 4.23, when the resampling or screen fitting option is enabled, allows remote attackers to execute arbitrary code via a crafted TIFF 1 BPP image, which triggers a heap-based buffer overflow.
+++
+
+2 3 Microsoft Internet Explorer, when the Invisible Hand extension is enabled, uses cookies during background HTTP requests in a possibly unexpected manner, which might allow remote web servers to identify specific persons and their product searches via HTTP request logging, related to a ""cross-site data leakage"" issue.
+++
+
+11 2 PHP before 5.3.9 has improper libxslt security settings, which allows remote attackers to create arbitrary files via a crafted XSLT stylesheet that uses the libxslt output extension.
+++
+
+3 4 The pkgAcqMetaClearSig::Failed method in apt-pkg/acquire-item.cc in Advanced Package Tool (APT) 0.8.11 through 0.8.15.10 and 0.8.16 before 0.8.16~exp13, when updating from repositories that use InRelease files, allows man-in-the-middle attackers to install arbitrary packages by preventing a user from downloading the new InRelease file, which leaves the original InRelease file active and makes it more difficult to detect that the Packages file is modified and unsigned.
+--
+
+2 3 Incomplete blacklist vulnerability in rssh before 2.3.4, when the rsync protocol is enabled, allows local users to bypass intended restricted shell access via the --rsh command line option.
+--
+
+11 3 MediaWiki before 1.18.5, and 1.19.x before 1.19.2 does not send a restrictive X-Frame-Options HTTP header, which allows remote attackers to conduct clickjacking attacks via an embedded API response in an IFRAME element.
+--
+
+11 4 Cisco IOS XE 3.2 through 3.4 before 3.4.2S, and 3.5, on 1000 series Aggregation Services Routers (ASR), when bridge domain interface (BDI) is enabled, allows remote attackers to cause a denial of service (card reload) via packets that are not properly handled during the processing of encapsulation, aka Bug ID CSCtt11558.
+--
+
+11 3 Xen 4.3.x writes hypervisor mappings to certain shadow pagetables when live migration is performed on hosts with more than 5TB of RAM, which allows local 64-bit PV guests to read or write to invalid memory and cause a denial of service (crash).
+++
+
+11 2 Juniper Junos 13.2 before 13.2R3 and 13.3 before 13.3R1, when PIM is enabled, allows remote attackers to cause a denial of service (kernel panic and crash) via a large number of crafted IGMP packets.
+++
+
+11 9 IBM Sterling B2B Integrator 5.2.x through 5.2.4, when the Connect:Direct Server Adapter is configured, does not properly process the logging configuration, which allows local users to obtain sensitive information by reading log files.
+--
+
+11 2 The qs module before 1.0.0 in Node.js does not call the compact function for array data, which allows remote attackers to cause a denial of service (memory consumption) by using a large index value to create a sparse array.
+--
+
+2 3 VMware Fusion 8.x before 8.5 on OS X, when System Integrity Protection (SIP) is enabled, allows local users to determine kernel memory addresses and bypass the kASLR protection mechanism via unspecified vectors.
+--
+
+11 4 HAproxy 1.6.x before 1.6.6, when a deny comes from a reqdeny rule, allows remote attackers to cause a denial of service (uninitialized memory access and crash) or possibly have unspecified other impact via unknown vectors.
+--
+
+11 9 A vulnerability has been identified in Primary Setup Tool (PST) (All versions < V4.2 HF1), SIMATIC IT Production Suite (All versions < V7.0 SP1 HFX 2), SIMATIC NET PC-Software (All versions < V14), SIMATIC PCS 7 V7.1 (All versions), SIMATIC PCS 7 V8.0 (All versions), SIMATIC PCS 7 V8.1 (All versions), SIMATIC PCS 7 V8.2 (All versions < V8.2 SP1), SIMATIC STEP 7 (TIA Portal) V13 (All versions < V13 SP2), SIMATIC STEP 7 V5.X (All versions < V5.5 SP4 HF11), SIMATIC WinCC (TIA Portal) Basic, Comfort, Advanced (All versions < V14), SIMATIC WinCC (TIA Portal) Professional V13 (All versions < V13 SP2), SIMATIC WinCC (TIA Portal) Professional V14 (All versions < V14 SP1), SIMATIC WinCC Runtime Professional V13 (All versions < V13 SP2), SIMATIC WinCC Runtime Professional V14 (All versions < V14 SP1), SIMATIC WinCC V7.0 SP2 and earlier versions (All versions < V7.0 SP2 Upd 12), SIMATIC WinCC V7.0 SP3 (All versions < V7.0 SP3 Upd 8), SIMATIC WinCC V7.2 (All versions < V7.2 Upd 14), SIMATIC WinCC V7.3 (All versions < V7.3 Upd 11), SIMATIC WinCC V7.4 (All versions < V7.4 SP1), SIMIT V9.0 (All versions < V9.0 SP1), SINEMA Remote Connect Client (All versions < V1.0 SP3), SINEMA Server (All versions < V13 SP2), SOFTNET Security Client V5.0 (All versions), Security Configuration Tool (SCT) (All versions < V4.3 HF1), TeleControl Server Basic (All versions < V3.0 SP2), WinAC RTX 2010 SP2 (All versions), WinAC RTX F 2010 SP2 (All versions). Unquoted service paths could allow local Microsoft Windows operating system users to escalate their privileges if the affected products are not installed under their default path (""C:\Program Files\*"" or the localized equivalent).
+++
+
+11 2 An issue was discovered in phpMyAdmin. When the user does not specify a blowfish_secret key for encrypting cookies, phpMyAdmin generates one at runtime. A vulnerability was reported where the way this value is created uses a weak algorithm. This could allow an attacker to determine the user's blowfish_secret and potentially decrypt their cookies. All 4.6.x versions (prior to 4.6.5), 4.4.x versions (prior to 4.4.15.9), and 4.0.x versions (prior to 4.0.10.18) are affected.
+++
+
+11 3 Microsoft Internet Explorer 11 on Windows 10, 1511, and 1606 and Windows Server 2016 does not enforce cross-domain policies, allowing attackers to access information from one domain and inject it into another via a crafted application, aka, ""Internet Explorer Elevation of Privilege Vulnerability.""
+++
+
+11 2 Redmine before 3.2.9, 3.3.x before 3.3.6, and 3.4.x before 3.4.4 does not block the --config and --debugger flags to the Mercurial hg program, which allows remote attackers to execute arbitrary commands (through the Mercurial adapter) via vectors involving a branch whose name begins with a --config= or --debugger= substring, a related issue to CVE-2017-17536.
+--
+
+4 2 An issue was discovered on Securifi Almond, Almond+, and Almond 2015 devices with firmware AL-R096. The device provides a user with the capability of blocking key words passing in the web traffic to prevent kids from watching content that might be deemed unsafe using the web management interface. It seems that the device does not implement any cross-site scripting protection mechanism which allows an attacker to trick a user who is logged in to the web management interface into executing a stored cross-site scripting payload on the user's browser and execute any action on the device provided by the web management interface.
+++
+
+11 3 IBM WebSphere Application Server 7.0, 8.0, and 8.5.5 installations using Form Login could allow a remote attacker to conduct spoofing attacks. IBM X-Force ID: 145769.
+++
+
+11 2 The igraph_i_strdiff function in igraph_trie.c in igraph through 0.7.1 has an NULL pointer dereference that allows attackers to cause a denial of service (application crash) via a crafted object.
+--
+
+11 3 Philips IntelliSpace Portal all versions of 8.0.x, and 7.0.x have an untrusted SSL certificate vulnerability this could allow an attacker to gain unauthorized access to resources and information.
+++
+
+2 3 In Progress MOVEit Transfer 11.1 before 11.1.3, a vulnerability has been found that could allow an attacker to sign in without full credentials via the SSH (SFTP) interface. The vulnerability affects only certain SSH (SFTP) configurations, and is applicable only if the MySQL database is being used.
+++
+
+11 3 An elevation of privilege vulnerability exists when the Windows Print Spooler service improperly allows arbitrary writing to the file system, aka 'Windows Print Spooler Elevation of Privilege Vulnerability'.
+++
+
+11 3 Liferay Portal before 7.3.0, and Liferay DXP 7.0 before fix pack 89, 7.1 before fix pack 17, and 7.2 before fix pack 4, does not safely test a connection to a LDAP server, which allows remote attackers to obtain the LDAP server's password via the Test LDAP Connection feature.
+--
+
+11 2 Unvaludated input in the 301 Redirects - Easy Redirect Manager WordPress plugin, versions before 2.51, did not sanitise its ""Redirect From"" column when importing a CSV file, allowing high privilege users to perform SQL injections.
+--
+
+11 3 The Shantz WordPress QOTD WordPress plugin through 1.2.2 is lacking any CSRF check when updating its settings, allowing attackers to make logged in administrators change them to arbitrary values.
+--
+
+11 3 The Maps Plugin using Google Maps for WordPress plugin before 1.8.4 does not have CSRF checks in most of its AJAX actions, which could allow attackers to make logged in admins delete arbitrary posts and update the plugin's settings via a CSRF attack
+--
+
+11 3 Potential security vulnerabilities have been identified in an OMEN Gaming Hub SDK package which may allow escalation of privilege and/or denial of service. HP is releasing software updates to mitigate the potential vulnerabilities.
+++
+
+3 2 Multiple vulnerabilities in image verification checks of Cisco Network Convergence System (NCS) 540 Series Routers, only when running Cisco IOS XR NCS540L software images, and Cisco IOS XR Software for Cisco 8000 Series Routers could allow an authenticated, local attacker to execute arbitrary code on the underlying operating system. For more information about these vulnerabilities, see the Details section of this advisory.
+--
+
+4 2 Apache Karaf obr:* commands and run goal on the karaf-maven-plugin have partial path traversal which allows to break out of expected folder. The risk is low as obr:* commands are not very used and the entry is set by user. This has been fixed in revision: https://gitbox.apache.org/repos/asf?p=karaf.git;h=36a2bc4 https://gitbox.apache.org/repos/asf?p=karaf.git;h=52b70cf Mitigation: Apache Karaf users should upgrade to 4.2.15 or 4.3.6 or later as soon as possible, or use correct path. JIRA Tickets: https://issues.apache.org/jira/browse/KARAF-7326
+++
+
+11 2 A vulnerability has been identified in PLM Help Server V4.2 (All versions). A reflected cross-site scripting (XSS) vulnerability exists in the web interface of the affected application that could allow an attacker to execute malicious javascript code by tricking users into accessing a malicious link.
+++
+
+11 2 The Mobility Pack before 1.2 in Novell Data Synchronizer 1.x through 1.1.2 build 428 does not include the HTTPOnly flag in a Set-Cookie header, which makes it easier for remote attackers to conduct cross-site scripting (XSS) attacks via unspecified vectors.
+++
+
+2 3 The Comcast firmware on Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421733-160420a-CMCST); Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421746-170221a-CMCST); Cisco DPC3939B (firmware version dpc3939b-v303r204217-150321a-CMCST); Cisco DPC3941T (firmware version DPC3941_2.5s3_PROD_sey); and Arris TG1682G (eMTA&DOCSIS version 10.0.132.SIP.PC20.CT, software version TG1682_2.2p7s2_PROD_sey) devices does not set the secure flag for cookies in an https session to an administration application, which makes it easier for remote attackers to capture these cookies by intercepting their transmission within an http session.
+++
+
+11 2 The crypto provider in Sun Solaris 10 3/05 HW2 without patch 121236-01, when running on Sun Fire T2000 platforms, incorrectly verifies a DSA signature, which might prevent applications from detecting that the data has been modified.
+--
+
+11 3 External resources that should be blocked when loaded by SVG images can bypass security restrictions through the use of ""data:"" URLs. This could allow for cross-domain data leakage. This vulnerability affects Firefox < 50.1, Firefox ESR < 45.6, and Thunderbird < 45.6.
+--
+
+11 3 In handleUpdateNetworkState of GnssNetworkConnectivityHandler.java , there is a possible APN disclosure due to log information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12Android ID: A-191086488
+++
+
+11 0 tEnvoy contains the PGP, NaCl, and PBKDF2 in node.js and the browser (hashing, random, encryption, decryption, signatures, conversions), used by TogaTech.org. In versions prior to 7.0.3, the `verifyWithMessage` method of `tEnvoyNaClSigningKey` always returns `true` for any signature that has a SHA-512 hash matching the SHA-512 hash of the message even if the signature was invalid. This issue is patched in version 7.0.3. As a workaround: In `tenvoy.js` under the `verifyWithMessage` method definition within the `tEnvoyNaClSigningKey` class, ensure that the return statement call to `this.verify` ends in `.verified`.
+++
+
+11 6 ced detects character encoding using Google&#8217;s compact_enc_det library. In ced v0.1.0, passing data types other than `Buffer` causes the Node.js process to crash. The problem has been patched in ced v1.0.0. As a workaround, before passing an argument to ced, verify it&#8217;s a `Buffer` using `Buffer.isBuffer(obj)`.
+++
+
+11 3 In WIFI Firmware, there is a possible memory corruption due to a use after free. This could lead to remote escalation of privilege, when devices are connecting to the attacker-controllable Wi-Fi hotspot, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06468872; Issue ID: ALPS06468872.
+++
+
+200
+61
+0.305

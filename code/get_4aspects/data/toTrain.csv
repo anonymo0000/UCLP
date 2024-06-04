@@ -1,0 +1,1 @@
+CVE-YYYY-xxxx,ASP.NET Core 2.0 an attackersteal log-in session information such as cookies or authentication tokens via a specially crafted URL aka ASP.NET Core Elevation Of Privilege Vulnerability.,0
