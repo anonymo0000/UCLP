@@ -1,0 +1,307 @@
+remote attackers
+remote authenticated users
+a remote attacker
+man-in-the-middle attackers
+an unauthenticated, remote attacker
+unauthenticated attacker with network access via HTTP
+low privileged attacker with network access via HTTP
+high privileged attacker with network access via multiple protocols
+remote authenticated administrators
+an unauthenticated attacker
+an unauthenticated user
+unauthenticated attacker with network access via multiple protocols
+low privileged attacker with logon
+remote authenticated attackers
+a remote unauthenticated attacker
+a remote authenticated attacker
+high privilege users such as admin
+high privileged attacker with logon
+A remote attacker 
+low privileged attacker with network access via multiple protocols
+an unauthenticated, adjacent attacker
+high privileged attacker with network access via HTTP
+high privilege users
+unauthenticated attackers
+an unauthenticated remote attacker
+remote administrators
+a remote attacker who had compromised the renderer process
+unauthenticated attacker with logon
+unauthenticated users
+remote servers
+remote unauthenticated attackers
+remote FTP servers
+a remote attacker who convinced a user
+remote authenticated users with certain permissions
+remote web servers
+a remote, unauthenticated attacker
+remote user-assisted attackers
+high privileged attacker with access
+An unauthenticated attacker 
+remote attacker
+unauthenticated remote attackers
+remote users
+(1) remote attackers
+unauthenticated attacker with network access via HTTPS
+a remote malicious user 
+a remote code execution vulnerability due
+remote untrusted Java Web Start applications and untrusted Java applets
+a remote, authenticated attacker
+remote unauthenticated users
+a remote user
+remote code execution, due
+an unauthenticated, local attacker
+remote HTTP servers
+unauthenticated attacker with network access via T3
+a low privileged attacker with network access
+a remote attacker 
+an remote attacker
+remote attackers or local users
+a man-in-the-middle attacker
+remote malicious servers
+unauthenticated user
+unauthenticated attacker with network access via IIOP, T3
+unauthenticated attacker with network access via T3, IIOP
+remote web sites
+remote DNS servers
+An unauthenticated user 
+remote authenticated users with permissions
+remote authenticated users with certain privileges
+remote authenticated editors
+an unauthenticated attacker with network access
+unauthenticated access
+remote malicious web sites
+remote IRC servers
+remote X servers
+a low privilege user 
+a remote attackers
+low-privileged users
+an unauthenticated, network-based attacker
+remote authenticated backend users
+a remote authenticated user
+an unauthenticated remote user
+low privileged attacker having Create Session privilege with network access via Oracle Net
+remote VNC servers
+remote attackers or remote authenticated users
+remote authenticated users with the administer themes permission
+remote authenticated users with permission
+low privileged attacker having Local Logon privilege with logon
+low privileged users
+an unauthenticated adjacent attacker
+remote files
+a low-privileged user
+a remote malicious user
+a low privileged attacker
+an unauthenticated attacker without specific knowledge of the system
+a remote authenticated attacker with an administrative privilege
+remote or local attackers
+remote malicious FTP servers
+(1) remote authenticated users
+remote DHCP servers
+remote authenticated users with the ""administer themes"" permission
+remote SSL servers
+unauthenticated attacker
+low privileged attacker having Create Session, Create Procedure privilege with network access via multiple protocols
+a remote attacker who convinced the user
+low-privilege users
+low privileged attacker with network access via HTTPS
+an unauthenticated network-based attacker
+high-privilege users such as admin
+remote malicious IRC servers
+remote authenticated admins
+******************
+local users
+a local attacker
+local malicious application
+local attackers
+a local user
+A local user 
+A local attacker 
+local guest OS administrators
+local guest OS users
+local users, and possibly remote attackers,
+local attacker
+a local authenticated attacker
+local and remote attackers
+local guest users
+local guest OS privileged users
+local administrators
+local users with access
+a local attacker 
+local guest administrators
+local or remote attackers
+local and possibly remote attackers
+a local user 
+A local, unprivileged user 
+local user
+local HVM guest users
+a local authenticated user
+a local malicious user 
+local users or remote attackers
+local users in the portage group
+a local unprivileged user
+******************
+an authenticated user
+an authenticated, remote attacker
+an authenticated, local attacker
+an authenticated attacker
+authenticated attackers
+authenticated users
+An authenticated user 
+an authenticated remote attacker
+An authenticated attacker 
+authenticated remote attackers
+any authenticated user
+any authenticated users, such as subscriber
+an authenticated, remote attacker with administrative privileges
+an authenticated, adjacent attacker
+authenticated user
+an authenticated local attacker
+an authenticated administrator
+an authenticated admin user
+authenticated administrators
+an authenticated, remote attacker with administrative credentials
+any authenticated users
+any authenticated user, including those with subscriber-level permissions,
+authenticated remote users
+******************
+context-dependent attackers
+******************
+physically proximate attackers
+******************
+user-assisted remote attackers
+user-assisted attackers
+users with a role as low as contributor
+users with a role as low as Contributor
+users with the contributor role and above
+users with Overall/Read access
+users with physical access
+users with a role as low as a contributor
+******************
+attackers
+an attacker
+An attacker 
+users
+the owner of the contract
+attacker
+the attacker
+a privileged user
+a user
+a user 
+attackers with Overall/Read permission
+access
+an attacker who convinced a user
+guest OS users
+A user 
+a malicious user
+them
+any app co-located on the device
+network-adjacent attackers
+the user
+other pre-installed apps
+a malicious user 
+an attacker with access
+an unprivileged user
+attackers able
+an elevation of privilege vulnerability due
+attackers with physical access
+an unauthorized user
+attacker using a specially crafted file
+unauthorized users
+web pages
+untrusted applications
+a privileged user 
+administrators
+an information disclosure vulnerability due
+unprivileged users
+an attacker with physical access
+The attacker 
+a buffer overflow. An attacker 
+unauthorized access
+attacker with administrator rights
+Users 
+attackers with Overall/Read access
+attackers in radio range
+any user
+physical attackers
+a malicious actor
+malicious users
+X servers
+an attacker on the same network segment
+attackers with access
+a guest
+a non-privileged local user
+A malicious attacker 
+attackers with administrative user access
+A malicious user 
+an unauthorized attacker
+an external attacker
+a way that an attacker 
+for code execution under the context of the application. An attacker can convince a user
+anyone
+x86 PV guest OS users
+it
+demo accounts
+attackers with Item/Configure permission
+one
+admins
+for a user
+attackers with normal user privileges
+you
+an unprivileged process
+an authorized user
+If an attacker 
+host OS users
+for an attacker
+CSRF
+an adversary
+User 
+applications
+physical access
+an administrative user
+attackers with Job/Configure permission
+an attacker on the same network
+an attacker with network access
+user
+information disclosure, due
+an elevation of privilege vulnerability
+attackers with permission
+a threat actor
+malicious users with at least author privilege
+The user 
+An unprivileged user 
+a 'Connected User 
+clients
+an administrator
+malicious X client
+an elevation of privilege vulnerability when it fails
+anonymous remote attackers
+a privileged attacker
+an attacker with local access and elevated privileges
+A privileged user 
+No user 
+unprivileged user
+privilege escalation
+unauthorized attackers
+unrestricted file upload which leads
+A privileged guest user 
+files
+sensitive information
+unauthorized remote attackers
+web sites
+that resource
+the owner
+the attacker (by default)
+a CGM file. An attacker 
+guest users
+writing
+a malicious attacker
+an attacker with local access
+minted tokens
+a partial recovery of display contents. For example, a hardware implant in the USB cable might be able
+a potential attacker
+a logged in user
+a privileged guest user
+an attacker on the adjacent network
+a locally authenticated attacker with low privileges
+a legitimate user 
+******************
